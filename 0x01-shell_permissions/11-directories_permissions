@@ -1,2 +1,2 @@
 #!/bin/bash
-chmod -R guo+x .
+chmod --preserve-root -R guo+x .
