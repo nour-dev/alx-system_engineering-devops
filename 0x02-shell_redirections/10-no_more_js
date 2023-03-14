@@ -1,2 +1,2 @@
 #!/bin/bash
-find -regex "*\.js$" -type f -exec rm '{}' +
+find -regex ".+\.js$" -type f -exec rm '{}' +
