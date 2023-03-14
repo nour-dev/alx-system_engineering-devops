@@ -1,2 +1,2 @@
 #!/bin/bash
-replace C '' c '' < /dev/stdin
+replace A Z c e < /dev/stdin
