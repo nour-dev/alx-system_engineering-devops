@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(</dev/stdin) | tr C '' | tr c ''
+echo $(</dev/stdin) | tr -d C | tr -d c
